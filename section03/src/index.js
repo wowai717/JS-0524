@@ -1,9 +1,10 @@
 // const{add, sub} = require("./math")
+import mul, {add, sub} from "./math.js";
+import randomcolor from "randomcolor";
+const color = randomcolor();
+console.log(color)
 
-import {add, sub} from "./math.js";
-import mul from "./math.js";
-
-console.log (add(1,2));
-console.log (sub(1,2));
-console.log (mul(2,3));
+// console.log (add(1,2));
+// console.log (sub(1,2));
+// console.log (mul(2,3));
 // console.log(moduleData);
